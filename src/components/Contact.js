@@ -16,7 +16,7 @@ export default () => {
                   <div id="success">
 
                   </div>
-                  <a id="sendMessageButton" href="mailto:flampeyeirydiaz@gmail.com" className="btn btn-primary btn-xl text-uppercase" type="submit">CONTACT ME</a>
+                  <a id="sendMessageButton" href="mailto:contact@flampdiaz.dev" className="btn btn-primary btn-xl text-uppercase" type="submit">CONTACT ME</a>
                 </div>
               </div>
             </form>

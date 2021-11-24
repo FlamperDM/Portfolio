@@ -1,6 +1,4 @@
 import React from 'react'
-import Modal from 'react-modal'
-import iconGithub from './../asset/icon/github.svg'
 
 import SectionHeader from './subComponents/SectionHeader'
 
@@ -11,9 +9,9 @@ export default ({ portfolioData }) => {
         <SectionHeader title="Portfolio" description="" />
         <div className="row">
           <div className="col-lg-12 text-center">
-            <h3 className="section-subheading text">This website is part of the portfolio made in ReactJS.
+            <h3 className="section-subheading text">This website is part of the portfolio made with ReactJS.
               <br/>
-              <a className="sourceCode" href="https://github.com/FlamperDM/FlamperDM.github.io">source code</a>
+              <a className="sourceCode" href="https://github.com/FlamperDM/.github.io">source code</a>
             </h3>
           </div>
         </div>
