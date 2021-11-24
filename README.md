@@ -1,8 +1,3 @@
 # About
 
-
-
-This project is based on the [Bootstrap Agency Template](https://startbootstrap.com/themes/agency/) adapted and refactored using React JS and some custom style.
-
-
-
+The bootstrap template is currently based on the [Bootstrap Agency Template](https://startbootstrap.com/themes/agency/), this template was redesigned using Photoshop and AdobeXD with custom images and fonts. This template was adapted and refactored by using React JS.
