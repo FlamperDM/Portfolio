@@ -11,7 +11,7 @@ export default ({ portfolioData }) => {
           <div className="col-lg-12 text-center">
             <h3 className="section-subheading text">This website is part of the portfolio made with ReactJS.
               <br/>
-              <a className="sourceCode" href="https://github.com/FlamperDM/.github.io">source code</a>
+              <a className="sourceCode" href="https://github.com/FlamperDM/Portfolio">source code</a>
             </h3>
           </div>
         </div>
