@@ -1,3 +1,4 @@
+import logoBitReel from './../asset/img/experience/logo-bitReel.png'
 import logoXrTerra from './../asset/img/experience/logo-xrTerra.jpg'
 import logoCarbonBlack from './../asset/img/experience/logo-carbonBlack.jpg'
 import logoHackDiversity from './../asset/img/experience/logo-hackDiversity.jpg'
@@ -54,14 +55,20 @@ export const portfolioData = [
 
 export const experienceData = [
   {
-    title: 'XR Terra - AR VR Developer Program',
-    description: '12-week boot camp to learn AR/VR development in Unity through project-based instruction and industry projects using XR Foundation',
+    title: 'BitReel',
+    description: '1 year as a XR Software Engineer into a startup of Augmented Reality company that creates immersive 3D shopping experiences online using a web browser on any recent device, from anywhere.', 
+    date: 'November 2020',
+    imgPath: logoBitReel
+  },
+  {
+    title: 'XR Terra',
+    description: '12-week AR VR Developer Program boot camp to learn Augmented Reality and Virtual Reality development on Unity through project-based instruction and industry projects using XR Foundation.',
     date: 'June 2020',
     imgPath: logoXrTerra
   },
   {
     title: 'VM WARE Carbon Black',
-    description: '12-week internship into a Cyber Security company B2B based on cloud native endpoint protection.',
+    description: '12-week internship as a Software Engineer into a Cyber Security company B2B based on cloud native endpoint protection.',
     date: 'June 2019',
     imgPath: logoCarbonBlack
   },

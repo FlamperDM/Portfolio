@@ -37,22 +37,24 @@ export default ({ data }) => {
                 MA to learn English. From there I joined Hack Diversity, which helped me with 
                 mentorship, coaching, networking, and led me to start my first internship in 
                 the USA at Carbon Black. In Spring 2020, I joined XR Terra, where I earned a 
-                certificate in the VR &amp; AR developer program.
-                <br />
-                <br />
-                This summer I was accepted to the Oculus Launchpad and am looking to connect 
-                with other entrepreneurial-minded people to make amazing games that are 
-                accessible across all platforms.
+                certificate in the VR &amp; AR developer program and through there I got my first 
+                job as a XR software engineer at BitReel.
                 <br />
                 <br />
                 Here are a few technologies I've been working with recently:
               </p>
               <ul class="skills-list text text-left">
-                <li>Unity</li>
-                <li>XR</li>
-                <li>C#</li>
+                <li>Unity - XR and game development</li>
                 <li>NodeJS</li>
+                <li>XR - Extended Reality</li>
                 <li>ReactJS</li>
+                <li>AR - Augmented Reality</li>
+                <li>Ant-Design</li>
+                <li>VR - Virtual Reality</li>
+                <li>Redux</li>
+                <li>C# - For Unity</li>
+                <li>Axios</li>
+                <li>Heroku</li>
                 <li>JavaScript (ES6+)</li>
               </ul>
             </div>
