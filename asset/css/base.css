@@ -1,0 +1,101 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    background-color: #000;
+    color: #fff;
+    background-image: url("../img/body-bg.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+p {
+    line-height: 1.75;
+}
+
+a {
+    color: #fed136;
+}
+
+a:hover {
+    color: #fec503;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@media (min-width: 768px) {
+    section {
+        padding: 150px 0;
+    }
+}
+
+::-moz-selection {
+    background: #fed136;
+    text-shadow: none;
+}
+
+::selection {
+    background: #fed136;
+    text-shadow: none;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+.text{
+    color: #cad7e4;
+}
+
+.icons{
+    border: none !important;
+    width: 100% !important;
+    height: 25px !important;
+}
+
+.contactForm > p{
+    margin-top: 10px;
+}
+
+.row{
+    margin-bottom: 30px;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 280px));
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+}
+
+.sourceCode{
+    font-size: 13px;
+}
+
+.thumbnail{
+    position : absolute;
+    top : 0;
+    z-index : -5000;
+    width : 0px;
+    height : 0px;
+}
+
+.thumbnail > img {
+    object-fit : cover;
+    width : 0px;
+    height : 0px;
+}
