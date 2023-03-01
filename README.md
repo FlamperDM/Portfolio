@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -36,3 +37,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+=======
+# About
+
+The bootstrap template is currently based on the [Bootstrap Agency Template](https://startbootstrap.com/themes/agency/), this template was redesigned using Photoshop and AdobeXD with custom images and fonts. This template was adapted and refactored by using React JS.
+
+The portfolio URL: [https://www.flampdiaz.dev/](https://www.flampdiaz.dev/)
+>>>>>>> c5a6585d6b0f55a9167b0c0749e3582274d5a23f

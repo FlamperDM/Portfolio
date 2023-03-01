@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "lang": "en",
     "short_name": "flampdiaz",
     "name": "Flampeyeiry Diaz",
@@ -25,3 +26,31 @@
     "theme_color": "#000000",
     "background_color": "#ffffff"
 }
+=======
+  "lang": "en",
+  "short_name": "flampdiaz",
+  "name": "Flampeyeiry Diaz",
+  "description": "Software Engineer specializing in VR, Game Development, and Web Development",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "thumbnail192.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "thumbnail512.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
+>>>>>>> c5a6585d6b0f55a9167b0c0749e3582274d5a23f
