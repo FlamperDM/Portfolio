@@ -3,7 +3,7 @@ import SectionHeader from './subComponents/SectionHeader'
 
 export default ({ experienceData }) => {
   return (
-    <section className="page-section" id="Experience">
+    <section className="page-section" id="experience">
       <div className="container">
         <SectionHeader title="Experiences" description="" />
         <div className="row">

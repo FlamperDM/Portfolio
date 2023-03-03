@@ -1,5 +1,4 @@
 export default ({navLinks}) => {
-  //TODO: menu list, iterate navLinks
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" id="mainNav">
       <div className="container">
@@ -10,19 +9,13 @@ export default ({navLinks}) => {
         </button>
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav text-uppercase ml-auto">
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#Experience">Experiences</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-            
+            {
+              navLinks && navLinks.map(({text, path}, index) => 
+                <li key={`navLink-${index}`} className="nav-item">
+                  <a className="nav-link js-scroll-trigger" href={path}>{text}</a>
+                </li>
+              )
+            }
           </ul>
         </div>
       </div>
