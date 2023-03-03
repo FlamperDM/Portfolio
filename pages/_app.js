@@ -1,5 +1,4 @@
 import '@/styles/globals.css'
-// import '@/styles/App.css'
 import './../styles/App.css'
 
 import './../asset/css/fonts.css'
